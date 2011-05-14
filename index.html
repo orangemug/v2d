@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>v2d specs</title>
+  <script type="text/javascript" src="spec/jasmine-1.0.2/coffee-script/coffee-script.js"></script>
+  <script type="text/javascript" src="spec/jasmine-1.0.2/coffee-script/coffee-script-extensions.js"></script>
+  <link rel="stylesheet" type="text/css" href="spec/jasmine-1.0.2/jasmine.css">
+  <script type="text/javascript" src="spec/jasmine-1.0.2/jasmine.js"></script>
+  <script type="text/javascript" src="spec/jasmine-1.0.2/jasmine-html.js"></script>
+</head>
+<body>
+<script type="text/coffeescript">
+  # Load the scripts and start the tests.
+  CoffeeScript.load ["v2d.coffee", "spec/v2d_spec.coffee"], () ->
+    jasmine.getEnv().addReporter(new jasmine.TrivialReporter())
+    jasmine.getEnv().execute()
+</script>
+</body>
+</html>
