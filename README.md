@@ -2,6 +2,10 @@
 
 V2D is a super simple 2D vector library for javascript with a priority on ease of use and clean syntax.
 
+Get it:
+
+ * [v2d.js](https://github.com/orangemug/v2d/raw/master/build/v2d.js)
+ * [v2d.min.js](https://github.com/orangemug/v2d/raw/master/build/v2d.min.js)
 
 ## API
 The following examples are all written in [coffeescript](http://jashkenas.github.com/coffee-script), if you're not using it yet you should go do that now. To create a new vector you can pass either an array, two args or an existing vector.
