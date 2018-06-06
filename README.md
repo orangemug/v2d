@@ -66,7 +66,7 @@ To build/minify simply run the following from the base directory, you'll need co
 
     cake build
 
-All the tests are run the in browser using [jasmine](http://pivotal.github.com/jasmine), the following command starts a server which hosts the tests
+All the tests are run the in browser using [jasmine](https://jasmine.github.io/), the following command starts a server which hosts the tests
 
     cake test
 
